@@ -7,17 +7,6 @@ Software engineer (ex-BMW) now focused on AI · MSc Cybersecurity (rare **AI-sec
 
 ---
 
-### 🚀 Featured projects
-
-| Project | What it does | Stack |
-|---|---|---|
-| [**AI Alert-Triage Backend (LLM)**](https://github.com/j0sem1/ai-alert-triage) | FastAPI service that triages security/telemetry events with an **LLM** — severity, explanation, recommended action; structured outputs; runs offline via a stub provider | FastAPI · Claude API · Docker |
-| [**CAN-Bus Intrusion Detection (Applied ML)**](https://github.com/j0sem1/can-bus-ids) | End-to-end **ML** detecting automotive network attacks (DoS / fuzzing / spoofing); C edge inference, **no hardware needed** | Python · scikit-learn · C |
-
-> Each repo has a one-command quickstart — clone and run it.
-
----
-
 ### 🧰 What I work with
 **AI / LLM:** LLM apps (Claude / Anthropic API, OpenAI-style), prompt engineering, structured / JSON outputs, RAG & vector search, agents / tool-use, evaluation & guardrails
 **ML:** Python, scikit-learn, TensorFlow / TF Lite, model training & evaluation, edge inference, MLOps awareness

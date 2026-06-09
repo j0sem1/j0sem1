@@ -6,7 +6,7 @@
     "email": "j0sem1@icloud.com",
     "phone": "+61 433 119 317",
     "url": "https://github.com/j0sem1",
-    "summary": "Applied AI Engineer focused on building AI/LLM-powered systems end to end. A software engineer (~3 years: backend, embedded automotive at BMW, safety-critical testing) who has moved into AI — integrating LLMs (Claude/Anthropic API) into production-style services, building applied-ML pipelines, and designing for reliability and security. Python-first, with a bilingual MSc in Cybersecurity that adds a rare AI-security angle. Recent work: an LLM alert-triage backend and an ML intrusion-detection system. Available immediately — open to remote (global) and Australia (Working Holiday visa).",
+    "summary": "Applied AI Engineer focused on building AI/LLM-powered systems end to end. A software engineer (~3 years: backend, embedded automotive at BMW, safety-critical testing) who has moved into AI — integrating LLMs (Claude/Anthropic API) into production-style services, building applied-ML pipelines, and designing for reliability and security. Python-first, with a bilingual MSc in Cybersecurity that adds a rare AI-security angle. Available immediately — open to remote (global) and Australia (Working Holiday visa).",
     "location": {
       "city": "Gold Coast",
       "region": "Queensland",
@@ -93,20 +93,7 @@
     { "language": "Spanish", "fluency": "Native" },
     { "language": "English", "fluency": "Advanced (full professional working proficiency)" }
   ],
-  "projects": [
-    {
-      "name": "AI Alert-Triage Backend (LLM)",
-      "description": "FastAPI microservice that ingests security/telemetry events and uses an LLM (Claude) to triage them — severity, explanation, and recommended action — with structured outputs, prompt design, and an offline stub provider so it runs without an API key. Tested, containerized, CI.",
-      "url": "https://github.com/j0sem1/ai-alert-triage",
-      "keywords": ["Python", "FastAPI", "Claude / Anthropic API", "LLM", "Structured outputs", "Docker"]
-    },
-    {
-      "name": "CAN-Bus Intrusion Detection (Applied ML)",
-      "description": "End-to-end ML pipeline that detects automotive CAN-bus attacks (DoS / fuzzing / spoofing); feature engineering → model → evaluation (~0.99 accuracy), exported to a C edge-inference component runnable without hardware.",
-      "url": "https://github.com/j0sem1/can-bus-ids",
-      "keywords": ["Python", "scikit-learn", "Machine learning", "C", "Edge inference", "Cybersecurity"]
-    }
-  ],
+  "projects": [],
   "certificates": [
     { "name": "C++ Nanodegree", "issuer": "Udacity" },
     { "name": "C Programming", "issuer": "edX" }

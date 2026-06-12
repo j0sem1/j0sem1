@@ -1,7 +1,7 @@
 # Hi, I'm Josemi 👋
 
-**Software Engineer — C++ / Embedded Software & Backend.**
-ex-BMW automotive (embedded software) · Java / Spring Boot backend · MSc Cybersecurity · 🇦🇺 Gold Coast, Australia (full work rights, available now)
+**Software Engineer — C++, Jav, Python / Embedded Software, Backend & AI.**
+ex-BMW automotive (embedded software) · Java / Spring Boot backend · MSc Cybersecurity · 🇦🇺 Gold Coast, Australia (happy to relocate, full work rights, available now)
 
 💻 C++ · ☕ Java / Spring Boot · 🐍 Python · 🧪 testing & quality · 🤖 exploring AI engineering
 

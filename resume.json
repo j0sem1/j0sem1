@@ -2,16 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "J. Miguel Sánchez Almagro",
-    "label": "AI Engineer (Applied) · LLM & ML Systems",
+    "label": "Software Engineer · C++ / Embedded Software & Backend",
     "email": "j0sem1@icloud.com",
     "phone": "+61 433 119 317",
     "url": "https://github.com/j0sem1",
-    "summary": "Applied AI Engineer focused on building AI/LLM-powered systems end to end. A software engineer (~3 years: backend, embedded automotive at BMW, safety-critical testing) who has moved into AI — integrating LLMs (Claude/Anthropic API) into production-style services, building applied-ML pipelines, and designing for reliability and security. Python-first, with a bilingual MSc in Cybersecurity that adds a rare AI-security angle. Available immediately — open to remote (global) and Australia (Working Holiday visa).",
-    "location": {
-      "city": "Gold Coast",
-      "region": "Queensland",
-      "countryCode": "AU"
-    },
+    "summary": "Software engineer with ~3 years building and testing software in demanding, regulated domains — C++ embedded software (BMW automotive project), Java/Spring Boot backend (Capgemini), and automated testing of safety-critical systems (Airbus). I work on the software side: clean, maintainable, well-tested code (design patterns, refactoring, unit/integration testing). Strong CS foundation with an AI/Data-Science specialization and an MSc in Cybersecurity. I use LLMs and AI agents daily and am upskilling in AI engineering.",
+    "location": { "city": "Gold Coast", "region": "Queensland", "countryCode": "AU" },
     "profiles": [
       { "network": "GitHub", "username": "j0sem1", "url": "https://github.com/j0sem1" },
       { "network": "LinkedIn", "username": "j0sem1", "url": "https://www.linkedin.com/in/j0sem1/" }
@@ -20,87 +16,64 @@
   "work": [
     {
       "name": "Bertrandt (client: BMW)",
-      "position": "Software Engineer — Embedded (BMW project)",
+      "position": "Software Engineer — Embedded Software (BMW project)",
       "location": "Madrid, Spain",
-      "startDate": "2023-07",
-      "endDate": "2024-06",
-      "summary": "C++ embedded software for BMW's intelligent vehicle locking/unlocking feature (body / vehicle-access domain).",
+      "startDate": "2023-07", "endDate": "2024-06",
       "highlights": [
-        "Developed and maintained C++ embedded software for BMW's intelligent locking/unlocking feature, from requirements through implementation and verification on the embedded target.",
-        "Worked in a Scrum team with daily feedback from the client (BMW); used Git and code review."
+        "Developed, maintained and tested C++ embedded software for BMW's intelligent locking/unlocking feature, within an AUTOSAR-based project (application-software layer).",
+        "Refactored existing code by introducing design patterns — improving readability, efficiency, maintainability and testability.",
+        "Wrote unit tests (GoogleTest) and software-in-the-loop (SIL) integration tests in Python; Scrum with daily client feedback; CAN-based comms."
       ]
     },
     {
       "name": "Bertrandt (client: Airbus)",
       "position": "Software Tester — Aerospace (Airbus project)",
       "location": "Madrid, Spain",
-      "startDate": "2022-10",
-      "endDate": "2023-07",
-      "summary": "High-level testing of the cargo-section software of the Airbus A400M military transport aircraft.",
+      "startDate": "2022-10", "endDate": "2023-07",
       "highlights": [
-        "Designed and executed test cases for the A400M cargo-section software and produced end-of-cycle certification documentation.",
-        "Worked to the DO-178 airborne-software standard with daily team meetings."
+        "Built and executed 1,000+ automated tests for the Airbus A400M cargo-section software using the client's proprietary C-based test framework.",
+        "Managed requirements and traceability in DOORS, to the DO-178 airborne-software standard."
       ]
     },
     {
       "name": "Capgemini",
-      "position": "FullStack Software Engineer (backend-focused)",
+      "position": "Software Engineer — Backend",
       "location": "Murcia, Spain",
-      "startDate": "2020-11",
-      "endDate": "2021-09",
-      "summary": "Web application with a Java / Spring Boot backend and Angular front-end.",
+      "startDate": "2020-11", "endDate": "2021-09",
       "highlights": [
-        "Built a web application with a Java / Spring Boot backend (Oracle SQL) and an Angular / TypeScript front-end, in a Full-Stack role focused on the backend.",
-        "Supervised code and coordinated the team for several weeks, in a Scrum environment.",
-        "Used Git / Bitbucket for version control and took part in reviews and the delivery cycle."
+        "Built and optimised Spring Boot services and REST APIs in Java over Oracle SQL for Adif's (Spanish rail) incident-reporting web app; owned the unit testing (JUnit); CI with Jenkins.",
+        "Briefly coordinated the team and reviewed code; Scrum via Jira."
       ]
     }
   ],
   "education": [
-    {
-      "institution": "Universidad Carlos III de Madrid (UC3M)",
-      "area": "Cybersecurity",
-      "studyType": "MSc (bilingual English/Spanish)",
-      "startDate": "2021",
-      "endDate": "2023",
-      "score": "Thesis mark 8/10",
-      "courses": [
-        "Master's thesis: digital forensic traces left on a computer when a storage device is connected",
-        "Focus interest: APTs (Advanced Persistent Threats)"
-      ]
-    },
-    {
-      "institution": "Universidad de Murcia",
-      "area": "Computer Engineering",
-      "studyType": "BSc (4-year degree)",
-      "startDate": "2016",
-      "endDate": "2020",
-      "score": "Dissertation mark 9.5/10",
-      "courses": [
-        "Specialization in Artificial Intelligence, computing and video games",
-        "Strong base across programming, AI and operating systems"
-      ]
-    }
+    { "institution": "Universidad Carlos III de Madrid (UC3M)", "area": "Cybersecurity", "studyType": "MSc (bilingual)", "startDate": "2021", "endDate": "2023", "courses": ["Thesis: C++/Linux digital-forensics tool for storage-device identification", "Interest: APTs"] },
+    { "institution": "Universidad de Murcia", "area": "Computer Engineering", "studyType": "BSc (4-year)", "startDate": "2016", "endDate": "2020", "score": "Dissertation 9.5/10", "courses": ["Specialization in Artificial Intelligence / Data Science (ML, deep learning, computer vision, Big Data)"] }
   ],
   "skills": [
-    { "name": "AI / LLM", "keywords": ["LLM application development", "Claude / Anthropic API", "OpenAI-style APIs", "Prompt engineering", "Structured / JSON outputs", "Function calling", "RAG & vector search", "Evaluation & guardrails", "Agents / tool-use (building)"] },
-    { "name": "Machine Learning", "keywords": ["Python ML", "scikit-learn", "TensorFlow / TF Lite", "Feature engineering", "Model training & evaluation", "Data pipelines", "Edge / on-device inference", "MLOps awareness"] },
-    { "name": "Languages", "keywords": ["Python", "C", "C++", "Java", "SQL", "Bash"] },
-    { "name": "Backend & Infra", "keywords": ["FastAPI", "REST APIs", "Microservices", "Docker", "CI/CD", "GitHub Actions", "Oracle SQL", "Linux", "Git"] },
-    { "name": "AI Security & Quality", "keywords": ["Secure-by-design", "Prompt-injection / LLM-risk awareness", "Threat modeling", "Test automation", "Requirements-based testing"] }
+    { "name": "Languages", "keywords": ["C++", "Java", "Python", "C", "SQL", "Bash", "C#", "R"] },
+    { "name": "Embedded software", "keywords": ["Embedded C++", "Design patterns & refactoring", "GoogleTest", "SIL integration testing (Python)", "CAN", "AUTOSAR-based projects"] },
+    { "name": "Backend", "keywords": ["Java", "Spring Boot", "REST APIs", "JUnit", "Oracle SQL", "Jenkins"] },
+    { "name": "Testing & quality", "keywords": ["Automated testing", "Unit & integration testing", "DOORS", "DO-178", "Safety-critical", "V-model"] },
+    { "name": "Tools & practices", "keywords": ["Git / GitHub", "Jira / Scrum", "VS Code", "Eclipse", "Linux", "Code review"] },
+    { "name": "Foundations", "keywords": ["Data structures & algorithms", "OOP", "Design patterns", "AI / ML", "Deep learning", "Computer vision"] }
   ],
   "languages": [
     { "language": "Spanish", "fluency": "Native" },
     { "language": "English", "fluency": "Advanced (full professional working proficiency)" }
   ],
-  "projects": [],
+  "projects": [
+    { "name": "Storage Device Forensics", "description": "C++/Linux tool that gathers forensic identifiers from connected USB devices and disks (MSc thesis).", "url": "https://github.com/j0sem1/storage-device-forensics", "keywords": ["C++", "Linux", "ioctl", "Digital forensics"] },
+    { "name": "AI Applied to Videogames", "description": "Multi-agent game AI: two AI teams compete with no human input via a finite-state machine over steering, influence maps and pathfinding (team project).", "url": "https://github.com/j0sem1/AI_applied_to_videogames", "keywords": ["Unity", "C#", "Game AI", "FSM"] },
+    { "name": "Computer Vision — OpenCV practicals", "description": "Six computer-vision techniques: SIFT matching, chroma-key, camera calibration, augmented reality, image rectification.", "url": "https://github.com/j0sem1/opencv-vision-coursework", "keywords": ["Python", "OpenCV", "SIFT", "Augmented reality"] }
+  ],
   "certificates": [
     { "name": "C++ Nanodegree", "issuer": "Udacity" },
     { "name": "C Programming", "issuer": "edX" }
   ],
   "meta": {
-    "availability": "Open to remote (global) and on-the-ground in Australia. Working Holiday Visa (subclass 462) — full AU work rights, available immediately, open to sponsored/permanent pathways.",
+    "workRights": "Working Holiday Visa (subclass 462) — full Australian working rights, based in Gold Coast, QLD. Available immediately for on-site (QLD or relocation) or remote work; open to 3–6 month contracts, project spikes, or contract-to-permanent roles.",
     "openToRemote": true,
-    "openToRelocation": ["Remote (global)", "Sydney", "Brisbane", "Melbourne", "Gold Coast"]
+    "openToRelocation": ["Remote", "Gold Coast", "Brisbane", "Sydney", "Melbourne"]
   }
 }

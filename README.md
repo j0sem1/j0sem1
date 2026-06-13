@@ -1,9 +1,10 @@
 # Hi, I'm Josemi 👋
 
-**Software Engineer — C++, Jav, Python / Embedded Software, Backend & AI.**
-ex-BMW automotive (embedded software) · Java / Spring Boot backend · MSc Cybersecurity · 🇦🇺 Gold Coast, Australia (happy to relocate, full work rights, available now)
+**Software Engineer**
+ex-BMW automotive (embedded software) · Java / Spring Boot backend · MSc Cybersecurity
+🇦🇺 Gold Coast, Australia (happy to relocate, full work rights, available now)
 
-💻 C++ · ☕ Java / Spring Boot · 🐍 Python · 🧪 testing & quality · 🤖 exploring AI engineering
+🐍 Python · 💻 C++ · ☕ Java / Spring Boot · 🧪 testing & quality · 🤖 exploring AI engineering
 
 ---
 
@@ -14,16 +15,6 @@ ex-BMW automotive (embedded software) · Java / Spring Boot backend · MSc Cyber
 | [**Storage Device Forensics**](https://github.com/j0sem1/storage-device-forensics) | C++/Linux tool that gathers forensic identifiers from connected USB devices & disks (MSc thesis) | C++ · Linux · ioctl |
 | [**AI Applied to Videogames**](https://github.com/j0sem1/AI_applied_to_videogames) | Multi-agent game AI: two AI teams compete with no human input via an FSM over steering, influence maps & pathfinding | Unity · C# |
 | [**Computer Vision — OpenCV**](https://github.com/j0sem1/opencv-vision-coursework) | Six CV techniques: SIFT, chroma-key, camera calibration, augmented reality, image rectification | Python · OpenCV |
-
----
-
-### 🧰 What I work with
-**Languages:** C++, Java, Python, C, SQL, Bash
-**Embedded software:** embedded C++, design patterns & refactoring, GoogleTest, SIL testing (Python), CAN, AUTOSAR-based projects *(software side)*
-**Backend:** Java / Spring Boot, REST APIs, JUnit, Oracle SQL, Jenkins, Docker
-**Testing & quality:** automated testing, unit & integration, DOORS, DO-178 (safety-critical)
-**Foundations:** data structures & algorithms, OOP, design patterns; AI / ML & computer vision (academic)
-**Currently:** using LLMs & AI agents daily; upskilling in AI engineering
 
 ---
 

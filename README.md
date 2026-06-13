@@ -9,7 +9,7 @@ ex-BMW automotive (embedded software) · Java / Spring Boot backend · MSc Cyber
 
 ---
 
-### 🚀 Featured projects
+### 🚀 Coursework projects
 
 | Project | What it is | Stack |
 |---|---|---|

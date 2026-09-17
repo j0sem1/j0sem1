@@ -3,7 +3,7 @@
 **Software Engineer**
 ex-BMW automotive (embedded software) · Java / Spring Boot backend · MSc Cybersecurity
 
-🇦🇺 Sydney, Australia (happy to relocate, full work rights, available now)
+🇦🇺 Brisbane, Australia (happy to relocate, available now)
 
 💻 C++ · ☕ Java / Spring Boot · 🐍 Python · 🧪 testing & quality · 🤖 exploring AI engineering
 
